@@ -1,7 +1,7 @@
 
 ###################################################
 # R script to learn the basics of R programming   #
-# To understand the strengths and weaknesses of R #                         #
+# To understand the strengths and weaknesses of R #                         
 ###################################################
 
 
