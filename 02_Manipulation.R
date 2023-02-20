@@ -43,6 +43,18 @@ cat("The percentage of each genre is:\n")
 print(genre_pct)
 
 
+# Mission 4: Display only films that have a duration greater than 200 if the genre is Drama, Comedy or Action
+
+
+subset(movies, genre %in% c("Drama", "Comedy", "Action") & duration > 200)
+
+# or
+
+subset(movies, (genre == "Drama" | genre == "Comedy" | genre == "Action") & duration > 200)
+
+
+
+
 
 
 
