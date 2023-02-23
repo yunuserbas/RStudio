@@ -31,4 +31,12 @@ head(pokemon)
 # Example using geom_point():
 ggplot(pokemon, aes(x = HP, y = Speed, color = Type.1)) + geom_point()
 
+# Example using geom_dotplot():
+ ggplot(pokemon, aes(x = Type.1, y = Sp..Atk)) + geom_dotplot(binaxis = "y", stackdir = "center")
+
+# Example using geom_histogram():
+ggplot(pokemon, aes(x = Speed)) + geom_histogram(binwidth = 0.1, fill = "blue", color = "white")
+
+# Example using geom_bar():
+
 
