@@ -8,3 +8,5 @@ load("C:/Users/yunus/Downloads/pokemon.csv")
 setwd("C:/Users/yunus/Downloads/")
 pokemon <- read.csv("pokemon.csv")
 head(pokemon)
+
+
