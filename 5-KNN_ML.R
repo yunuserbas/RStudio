@@ -6,7 +6,11 @@
 load("C:/Users/yunus/Downloads/pokemon.csv")
 
 setwd("C:/Users/yunus/Downloads/")
-pokemon <- read.csv("pokemon.csv")
-head(pokemon)
 
+d <- read.csv('pokemon.csv', header = TRUE)
+head(d)
 
+str(d)
+
+d2 <- select(d, HP, Attack, Defense, Sp..Atk, Sp..Def, Speed, Generation, Legendary)
+head(d2)
