@@ -18,8 +18,12 @@ cat(message)
 25 * 4 + 9 / 3
 
 # Mission 3: In order to print a value, you must put the value inside the following syntax: print(). Print your name as a character string.
+# Print your age as a numeric type.
+# On a new line of code, print your age as a character type.
 
 print('Yunus')
+print(27)
+print('27')
 
 # Mission 4: Create a function that takes in 2 numbers as parameters, and indicates whether or not they are equal.
 
