@@ -12,7 +12,16 @@ message <- "Hello R"
 cat(message)
 
 
-# Mission 2: Create a function that takes in 2 numbers as parameters, and indicates whether or not they are equal.
+
+# Mission 2: Calculate the result of this equation: 25 * 4 + 9 / 3 in the R code block.
+
+25 * 4 + 9 / 3
+
+# Mission 3: In order to print a value, you must put the value inside the following syntax: print(). Print your name as a character string.
+
+print('Yunus')
+
+# Mission 4: Create a function that takes in 2 numbers as parameters, and indicates whether or not they are equal.
 
 
 check_equal <- function(num1, num2) {
@@ -26,7 +35,7 @@ check_equal <- function(num1, num2) {
 
 check_equal(3, 3)
 
-# Mission 3: Create a function that uses a while or for loop to display the times tables of any number from 0 to 10. 
+# Mission 5: Create a function that uses a while or for loop to display the times tables of any number from 0 to 10. 
 # Then skip every other result.
 # For example if your input is 1 it will look like this: 0, 2, 4, 6, 8, 10
 
@@ -45,7 +54,7 @@ times_tables_skip <- function(num) {
 times_tables_skip(1)
 
 
-# Mission 4: Create a while loop that displays the vowels of the longest word in English one after the other (i.e. horizontally, not one above) 
+# Mission 6: Create a while loop that displays the vowels of the longest word in English one after the other (i.e. horizontally, not one above) 
 # of the other, i.e. vertically). The longest word in English is: "antidisestablishmentarianism"
 
 
@@ -62,7 +71,7 @@ while (i <= nchar(word)) {
 }
 
 
-# Mission 5: Create a function that takes in 3 numbers as parameters, and carries out two operations (+, -, *, /).
+# Mission 7: Create a function that takes in 3 numbers as parameters, and carries out two operations (+, -, *, /).
 # Then return the result of the applied operations. You will have to factor for a situation where division by zero is attempted.
 # Display a message that indicates whether the result is positive, negative or zero.
 # Example operations: 0*32+2 = 2; 21/0+3 > "Error, you're trying to divide by zero"
