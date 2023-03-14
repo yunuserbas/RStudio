@@ -30,6 +30,10 @@ print('27')
 name <- "Yunus"
 age <- 27
 
+# Mission 4: Create a numeric vector named phone that contains your phone number as three numbers: your area code, the next three digits, and then the last four.
+
+phone <- c(058, 584, 9275)
+
 # Mission 5: Create a function that takes in 2 numbers as parameters, and indicates whether or not they are equal.
 
 
