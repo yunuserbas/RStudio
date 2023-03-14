@@ -45,6 +45,23 @@ if (TRUE) {
    message <- 'I execute this when false!'
 }
 
+
+# Mission 6: There are two variables in your code, weather and high_chance_of_rain. Write a conditional statement that:
+# Checks to see if weather is equal cloudy and there is a high_chance_of_rain.
+# If it is both, the code block should assign the value of the variable message to be "Pack umbrella!"
+# Otherwise, the code block should assign the value of the variable message to "No need for umbrella!" 
+
+message <- 'Should I pack an umbrella?'
+weather <- 'cloudy'
+high_chance_of_rain <- TRUE
+
+if (weather == 'cloudy' & high_chance_of_rain == TRUE) {
+  message <- 'Pack umbrella!'
+} else {
+  message <- 'No need for umbrella!'
+}
+
+
 # Mission 5: Create a function that takes in 2 numbers as parameters, and indicates whether or not they are equal.
 
 
