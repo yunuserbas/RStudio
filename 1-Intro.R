@@ -34,6 +34,17 @@ age <- 27
 
 phone <- c(058, 584, 9275)
 
+# Mission 5: Create a conditional statement in notebook.Rmd such that it will change the value of the variable message to 'I execute this when true!' when the condition is TRUE, 
+# and the value of message to 'I execute this when false!' when it is FALSE.
+
+message <- "I change based on a condition."
+
+if (TRUE) {
+   message <- 'I execute this when true!'
+} else {
+   message <- 'I execute this when false!'
+}
+
 # Mission 5: Create a function that takes in 2 numbers as parameters, and indicates whether or not they are equal.
 
 
