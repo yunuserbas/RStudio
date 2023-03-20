@@ -5,6 +5,7 @@ library(readr)
 library(dplyr)
 
 
+
 # load data frame
 
 artists <- read_csv('artists.csv')
@@ -16,6 +17,7 @@ head(artists)
 summary(artists)
 
 
+
 # select columns, filter and arrange rows of artists
 
 artists_manipulated <- artists %>% 
@@ -23,7 +25,6 @@ artists_manipulated <- artists %>%
   filter(spotify_monthly_listeners > 20000000, genre != 'Hip Hop') %>% 
   arrange(desc(youtube_subscribers))
 artists_manipulated
-
 
 
 
