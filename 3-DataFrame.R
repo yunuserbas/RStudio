@@ -14,6 +14,9 @@ artists <- read_csv('artists.csv')
 
 artists
 head(artists)
+
+# call summary() on artists and run the code to view the summary statistics of the data frame.
+
 summary(artists)
 
 
