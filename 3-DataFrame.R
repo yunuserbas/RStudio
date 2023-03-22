@@ -19,7 +19,10 @@ head(artists)
 
 summary(artists)
 
+# inspect data frame with pipe
 
+library(magrittr)
+artists %>% head()
 
 # select columns, filter and arrange rows of artists
 
