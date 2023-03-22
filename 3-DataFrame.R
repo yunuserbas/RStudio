@@ -37,5 +37,9 @@ artists_manipulated
 artist_groups <- select(artists, group)
 artist_groups
 
+# Select the group, spotify_monthly_listeners, and year_founded columns of artists using select() and save the result to group_info. View group_info.
+
+group_info <- select(artists, group,spotify_monthly_listeners, year_founded)
+group_info 
 
 
