@@ -32,5 +32,10 @@ artists_manipulated <- artists %>%
   arrange(desc(youtube_subscribers))
 artists_manipulated
 
+# Select the group column of artists using select() and save the result to artist_groups. View artist_groups.
+
+artist_groups <- select(artists, group)
+artist_groups
+
 
 
