@@ -54,5 +54,20 @@ df_cols_removed <- artists %>%
                       select(-genre, -spotify_monthly_listeners, -year_founded)
 df_cols_removed
 
+# Filter the rows of artists where the genre is 'Rock' and save the result to rock_groups. View rock_groups.
+
+rock_groups <- artists %>%
+  filter(genre == 'Rock')
+rock_groups
+
+# Filter the rows of artists where the genre is 'Rock' and spotify_monthly_listeners is greater than 20000000. Save the result to popular_rock_groups, and view it.
+
+popular_rock_groups <- artists %>%
+  filter(genre == 'Rock', spotify_monthly_listeners>20000000)
+popular_rock_groups
+
+
+
+
 
 
