@@ -3,15 +3,15 @@ This repository contains materials for learning and practicing R programming lan
 
 In this repository, you will find:
 
-Code examples that demonstrate various R concepts and techniques.
+- Code examples that demonstrate various R concepts and techniques.
 
-Data files used in the R scripts.
+- Data files used in the R scripts.
 
-Practice exercises to help you reinforce your R skills.
+- Practice exercises to help you reinforce your R skills.
 
-Longer projects that challenge you to apply your R skills to real-world problems.
+- Longer projects that challenge you to apply your R skills to real-world problems.
 
-Step-by-step tutorials that guide you through specific R tasks and workflows.
+- Step-by-step tutorials that guide you through specific R tasks and workflows.
 
 All materials in this repository are organized into folders for easy navigation and accessibility. You can use these materials for your own learning and practice, and you are also welcome to contribute to this repository by submitting pull requests or opening issues.
 
