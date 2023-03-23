@@ -42,4 +42,17 @@ artist_groups
 group_info <- select(artists, group,spotify_monthly_listeners, year_founded)
 group_info 
 
+# Select all columns of artists except albums using select() and save the result to no_albums. View no_albums.
+
+o_albums <- artists %>%
+              select(-albums)
+no_albums
+
+# Select all columns of artists except genre, spotify_monthly_listeners, and year_founded using select() and save the result to df_cols_removed. View df_cols_removed.
+
+df_cols_removed <- artists %>%
+                      select(-genre, -spotify_monthly_listeners, -year_founded)
+df_cols_removed
+
+
 
