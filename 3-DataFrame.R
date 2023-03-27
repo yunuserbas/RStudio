@@ -78,6 +78,12 @@ not_rock_groups <- artists %>%
    filter(!(genre=='Rock')) 
 not_rock_groups
 
+# Arrange the rows of artists in ascending order by group. Save the result to group_asc, and view it.
 
+group_asc <- artists %>%
+   arrange(group)
+group_asc
+
+# 
 
 
