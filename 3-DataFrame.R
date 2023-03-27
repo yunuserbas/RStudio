@@ -66,6 +66,11 @@ popular_rock_groups <- artists %>%
   filter(genre == 'Rock', spotify_monthly_listeners>20000000)
 popular_rock_groups
 
+# Filter the rows of artists where the country is 'South Korea' or the year_founded is before 2000. Save the result to korea_or_before_2000, and view it.
+
+korea_or_before_2000 <- artists %>%
+  filter(country == 'South Korea' | year_founded < 2000)
+korea_or_before_2000
 
 
 
