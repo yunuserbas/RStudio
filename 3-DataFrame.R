@@ -84,6 +84,11 @@ group_asc <- artists %>%
    arrange(group)
 group_asc
 
-# 
+# Arrange the rows of artists in descending order by youtube_subscribers. Save the result to youtube_desc, and view it.
+
+youtube_desc <- artists %>%
+   arrange(desc(youtube_subscribers))
+youtube_desc
+
 
 
