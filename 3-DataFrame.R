@@ -72,6 +72,11 @@ korea_or_before_2000 <- artists %>%
   filter(country == 'South Korea' | year_founded < 2000)
 korea_or_before_2000
 
+# Filter the rows of artists where the genre is not 'Rock'. Save the result to not_rock_groups, and view it.
+
+not_rock_groups <- artists %>%
+   filter(!(genre=='Rock')) 
+not_rock_groups
 
 
 
