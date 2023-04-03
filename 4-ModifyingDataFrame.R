@@ -22,3 +22,6 @@ dogs <- dogs %>%
 dogs <- dogs %>%
   mutate(avg_weight = (weight_low_lbs + weight_high_lbs)/2, rank_change_13_to_16 = rank_2016 - rank_2013)
 head(dogs)
+
+
+
