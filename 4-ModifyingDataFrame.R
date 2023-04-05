@@ -31,5 +31,6 @@ dogs <- dogs %>%
 head(dogs)
 
 
-# 
-
+# check column names
+original_col_names <- colnames(dogs)
+original_col_names
