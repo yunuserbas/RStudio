@@ -40,5 +40,9 @@ dogs <- dogs %>%
    avg_weight_lbs = avg_weight,
    popularity_change_13_to_16 = rank_change_13_to_16)
 
+# check column names
+new_col_names <- colnames(dogs)
+new_col_names
 
-original_col_names
+
+
