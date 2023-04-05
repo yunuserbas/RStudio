@@ -33,4 +33,12 @@ head(dogs)
 
 # check column names
 original_col_names <- colnames(dogs)
+
+# rename data frame columns
+dogs <- dogs %>%
+   rename(avg_height_inches = avg_height,
+   avg_weight_lbs = avg_weight,
+   popularity_change_13_to_16 = rank_change_13_to_16)
+
+
 original_col_names
