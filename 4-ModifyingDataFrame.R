@@ -62,6 +62,13 @@ dogs <- dogs %>%
 head(dogs)
 
 
+dogs <- dogs %>%
+  transmute(breed = breed,
+            height_average_feet = ((height_low_inches + height_high_inches)/2)/12,
+            popularity_change_15_to_16 = rank_2016 - rank_2015) %>% 
+  arrange(desc(popularity_change_15_to_16))
+head(dogs)
+
 
 
 
