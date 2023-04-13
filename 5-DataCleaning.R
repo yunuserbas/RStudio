@@ -22,3 +22,15 @@ print(colnames(grocery_2))
 # clean data frame
 clean_data_frame <- 2
 
+
+# You have 10 different files containing 100 students each. These files follow the naming structure:
+
+''' exams_0.csv
+exams_1.csv
+… up to exams_9.csv '''
+
+# You are going to read each file into an individual data frame and then combine all of the entries into one data frame.
+# First, create a variable called student_files and set it equal to the list.files() of all of the CSV files we want to import.
+
+student_files <- list.files(pattern = "exams_.*csv")
+
