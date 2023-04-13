@@ -35,15 +35,13 @@ exams_1.csv
 student_files <- list.files(pattern = "exams_.*csv")
 
 # Read each file in student_files into a data frame using lapply() and save the result to df_list.
-
 df_list <- lapply(student_files,read_csv)
 
 # Concatenate all of the data frames in df_list into one data frame called students.
-
 students <- bind_rows(df_list)
 
-
-
+# Inspect students. Save the number of rows in students to nrow_students. Did you get all of them?
+nrow_students <- nrow(students)
 
 
 
