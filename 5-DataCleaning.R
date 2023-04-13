@@ -38,6 +38,12 @@ student_files <- list.files(pattern = "exams_.*csv")
 
 df_list <- lapply(student_files,read_csv)
 
+# Concatenate all of the data frames in df_list into one data frame called students.
+
+students <- bind_rows(df_list)
+
+
+
 
 
 
