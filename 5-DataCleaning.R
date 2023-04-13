@@ -34,3 +34,11 @@ exams_1.csv
 
 student_files <- list.files(pattern = "exams_.*csv")
 
+# Read each file in student_files into a data frame using lapply() and save the result to df_list.
+
+df_list <- lapply(student_files,read_csv)
+
+
+
+
+
