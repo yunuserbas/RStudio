@@ -48,3 +48,11 @@ load("students.Rda")
 
 # original column names
 original_col_names <- colnames(students)
+
+# There is a column for the scores on the fractions exam, and a column for the scores on the probability exam.
+students <- students %>%
+  gather('fractions','probability',key='exam', value='score')
+head(students)
+
+
+
