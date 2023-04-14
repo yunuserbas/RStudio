@@ -46,4 +46,5 @@ nrow_students <- nrow(students)
 # load students data frame
 load("students.Rda")
 
-
+# original column names
+original_col_names <- colnames(students)
