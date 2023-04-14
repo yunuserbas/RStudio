@@ -58,6 +58,11 @@ head(students)
 gathered_col_names <- colnames(students)
 print(gathered_col_names)
 
+# unique value counts of exam
+exam_counts <- students %>%
+  count(exam)
+
+
 
 
 
