@@ -43,6 +43,7 @@ students <- bind_rows(df_list)
 # Inspect students. Save the number of rows in students to nrow_students. Did you get all of them?
 nrow_students <- nrow(students)
 
-
+# load students data frame
+load("students.Rda")
 
 
