@@ -54,5 +54,10 @@ students <- students %>%
   gather('fractions','probability',key='exam', value='score')
 head(students)
 
+# updated column names
+gathered_col_names <- colnames(students)
+print(gathered_col_names)
+
+
 
 
