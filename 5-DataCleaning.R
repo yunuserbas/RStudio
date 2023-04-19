@@ -63,7 +63,5 @@ exam_counts <- students %>%
   count(exam)
 
 # Dealing with Duplicates
-
-
-
+# load students data frame
 
