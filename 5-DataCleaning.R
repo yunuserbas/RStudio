@@ -62,6 +62,7 @@ print(gathered_col_names)
 exam_counts <- students %>%
   count(exam)
 
+# Dealing with Duplicates
 
 
 
