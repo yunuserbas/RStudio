@@ -64,4 +64,5 @@ exam_counts <- students %>%
 
 # Dealing with Duplicates
 # load students data frame
+load("students.Rda")
 
