@@ -66,3 +66,5 @@ exam_counts <- students %>%
 # load students data frame
 load("students.Rda")
 
+# The students data frame has a column id that is neither unique nor required for our analysis. Drop the id column from the data frame and save the result to students.
+# View the head() of students.
