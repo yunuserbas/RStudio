@@ -88,3 +88,9 @@ unique_students <- students %>%
    distinct()
 unique_students
 
+# find and count duplicated rows in updated data frame
+updated_duplicates <- unique_students %>%
+  duplicated() %>%
+  table()
+updated_duplicates
+
