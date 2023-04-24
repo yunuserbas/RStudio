@@ -83,3 +83,8 @@ duplicate_counts <- duplicates %>%
   table()
 head(duplicate_counts)
 
+# remove duplicated rows, keep only unique rows
+unique_students <- students %>%
+   distinct()
+unique_students
+
