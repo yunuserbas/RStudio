@@ -73,5 +73,10 @@ tudents <- students %>%
   select(-id)
 head(students)
 
+# find duplicated rows
+duplicates <- students %>%
+  duplicated()
+head(duplicates)
+
 
 
