@@ -78,5 +78,8 @@ duplicates <- students %>%
   duplicated()
 head(duplicates)
 
-
+# count duplicated rows
+duplicate_counts <- duplicates %>%
+  table()
+head(duplicate_counts)
 
