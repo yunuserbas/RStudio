@@ -101,3 +101,6 @@ students <- students %>%
 head(students)
 
 # Now, separate out the age data into a new column called age. Save the updated data frame to students, and view the head().
+students <- students %>%
+  mutate(age = str_sub(gender_age,2))
+head(students)
