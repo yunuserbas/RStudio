@@ -94,5 +94,5 @@ updated_duplicates <- unique_students %>%
   table()
 updated_duplicates
 
-
-
+# It looks like the first character of the values in gender_age contains the gender, while the rest of the string contains the age. 
+# Let’s separate out the gender data into a new column called gender. Save the result to students, and view the head().
