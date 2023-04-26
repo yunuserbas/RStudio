@@ -104,3 +104,9 @@ head(students)
 students <- students %>%
   mutate(age = str_sub(gender_age,2))
 head(students)
+
+# Now, we don’t need that gender_age column anymore. Drop gender_age from students, and save the result to students. View the head() of students.
+tudents <- students %>%
+  select(-gender_age) 
+head(students)
+
