@@ -99,3 +99,5 @@ updated_duplicates
 students <- students %>%
   mutate(gender = str_sub(gender_age, 1,1))
 head(students)
+
+# Now, separate out the age data into a new column called age. Save the updated data frame to students, and view the head().
