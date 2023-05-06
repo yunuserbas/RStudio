@@ -110,3 +110,7 @@ students <- students %>%
   select(-gender_age) 
 head(students)
 
+# separate the full_name column
+students <- students %>%
+  separate(full_name,c('first_name','last_name'),' ',extra ='merge')
+head(students)
