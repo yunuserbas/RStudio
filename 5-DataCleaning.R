@@ -110,6 +110,9 @@ students <- students %>%
   select(-gender_age) 
 head(students)
 
+# Separate the full_name column into two new columns, first_name and last_name, by splitting on the ' ' character .
+# Provide as an extra argument to the separate() function extra ='merge'. This will ensure that middle names or two-word last names will all end up in the last_name column.
+# Save the result to students, and view the head().
 # separate the full_name column
 students <- students %>%
   separate(full_name,c('first_name','last_name'),' ',extra ='merge')
