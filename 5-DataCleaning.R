@@ -117,3 +117,7 @@ head(students)
 students <- students %>%
   separate(full_name,c('first_name','last_name'),' ',extra ='merge')
 head(students)
+
+# Let’s inspect the data types in the students table.
+# Print out the structure of students.
+str(students)
