@@ -125,3 +125,6 @@ str(students)
 # mean of age column
 students <- students %>% 
   summarise(mean_score = mean(score))
+
+# We saw in the last exercise that finding the mean of the score column is hard to do when the data is stored as characters and not numbers.
+# View the head() of students to take a look at the values in the score column.
