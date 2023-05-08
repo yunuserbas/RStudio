@@ -121,3 +121,7 @@ head(students)
 # Let’s inspect the data types in the students table.
 # Print out the structure of students.
 str(students)
+
+# mean of age column
+students <- students %>% 
+  summarise(mean_score = mean(score))
