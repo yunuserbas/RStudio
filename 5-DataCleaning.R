@@ -133,3 +133,10 @@ head(students)
 # Remove the '%' symbol from the score column, and save the resulting data frame to students. View students.
 students <- students %>%
   mutate(score=gsub('\\%','',score))
+
+
+# Convert the score column to a numerical type using the as.numeric() function. Save this new data frame to students, and view it.
+students <- students %>%
+  mutate(score = as.numeric(score))
+  
+  
