@@ -138,5 +138,8 @@ students <- students %>%
 # Convert the score column to a numerical type using the as.numeric() function. Save this new data frame to students, and view it.
 students <- students %>%
   mutate(score = as.numeric(score))
-  
-  
+
+# The students data frame is nearly cleaned and ready for analysis! There’s one more change that can be made to the ages of the students to help describe and visualize the data. What could that change be? What is the ideal data type for the ages column?
+# Make the change to age and save the resulting data frame to students.
+
+
