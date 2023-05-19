@@ -12,3 +12,6 @@ movies <- read_csv("imdb.csv")
 
 viz <- ggplot(data = movies)
 viz
+
+# In the visualization we will be creating, we want to plot the Movie Ratings (imdbRating) on the x axis and the number of awards (nrOfWins) on the y axis to see if there is a correlation between a movie rating and the number of awards it wins. 
+# We will use this scale on the subsequent layers, so create the aesthetic mappings at the canvas level.
