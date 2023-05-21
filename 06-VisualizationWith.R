@@ -16,6 +16,8 @@ viz
 # In the visualization we will be creating, we want to plot the Movie Ratings (imdbRating) on the x axis and the number of awards (nrOfWins) on the y axis to see if there is a correlation between a movie rating and the number of awards it wins. 
 # We will use this scale on the subsequent layers, so create the aesthetic mappings at the canvas level.
 
-viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins))
+viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) 
 viz
+
+# Add a scatter plot of the data to the viz ggplot object by using the geom_point() layer.
 
