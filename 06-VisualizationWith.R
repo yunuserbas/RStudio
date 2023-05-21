@@ -21,3 +21,5 @@ viz
 
 # Add a scatter plot of the data to the viz ggplot object by using the geom_point() layer.
 
+viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
+       geom_point()
