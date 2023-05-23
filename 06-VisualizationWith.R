@@ -31,3 +31,5 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
 # Are movies better off when they stick to one simple genre or when the explore multiple ones? We want to display this information on our plot.
 
 # Add an aesthetic mapping to the geom_point() layer that color coordinates the data based on nrOfGenre.
+
+
