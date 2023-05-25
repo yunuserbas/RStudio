@@ -36,6 +36,8 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) + geom_point(aes(color
 
 viz
 
+# There seems to be some crowding in our movie scatterplot. Let’s change the opacity of our points by making them .5 translucent. 
+# We can accomplish by manually assigning the alpha value of the geom_point() layer.
 
 
 
