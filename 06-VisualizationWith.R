@@ -25,12 +25,12 @@ viz
 viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
        geom_point()
 
-# Inside our movies dataset, we have a column named nrOfGenre that describes the number of genres a movie is assigned. For example, 
+# Inside our "movies" dataset, we have a column named "nrOfGenre" that describes the number of genres a movie is assigned. For example, 
 # the movie “Terminator” is classified as both “Action” and “Sci-Fi”, so its number of genres is equal to 2. 
 # What if we are wondering if the number of genres a movie is assigned, in other words its versatility, is correlated to its movie rating or its number of wins? 
 # Are movies better off when they stick to one simple genre or when the explore multiple ones? We want to display this information on our plot.
 
-# Add an aesthetic mapping to the geom_point() layer that color coordinates the data based on nrOfGenre.
+# Add an aesthetic mapping to the geom_point() layer that "color" coordinates the data based on "nrOfGenre".
 
 viz <- 
 
