@@ -32,7 +32,9 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
 
 # Add an aesthetic mapping to the geom_point() layer that "color" coordinates the data based on "nrOfGenre".
 
-viz <- 
+viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) + geom_point(aes(color=nrOfGenre))
+
+viz
 
 
 
