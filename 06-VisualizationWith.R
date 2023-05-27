@@ -43,4 +43,6 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
        geom_point(aes(color=nrOfGenre), alpha=.5) 
 
 # The labels on the plot we’ve been building could definitely use an update! 
+# Add a labs() function call and change the following arguments:
+   # Change the title to "Movie Ratings Vs Award Wins" to contextualize the goal of the plot.
 
