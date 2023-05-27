@@ -47,4 +47,6 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
    # Change the title to "Movie Ratings Vs Award Wins" to contextualize the goal of the plot.
    # Contextualize details about where the data comes from inside the subtitle by adding "From IMDB dataset".
    # Change the x label to "Movie Rating" and the y label to "Number of Award Wins".
+   # Change the legend label by providing a color argument with the string value of "Number of Genre".
+
 
