@@ -45,4 +45,6 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
 # The labels on the plot we’ve been building could definitely use an update! 
 # Add a labs() function call and change the following arguments:
    # Change the title to "Movie Ratings Vs Award Wins" to contextualize the goal of the plot.
+   # Contextualize details about where the data comes from inside the subtitle by adding "From IMDB dataset".
+   # Change the x label to "Movie Rating" and the y label to "Number of Award Wins".
 
