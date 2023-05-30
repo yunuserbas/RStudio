@@ -57,3 +57,9 @@ viz
 
 ## NewDataset
 
+# The mpg dataset in R is a built-in dataset describing fuel economy data from 1999 and 2008 for 38 popular models of cars and is included with ggplot.
+# Inspect the built-in dataset mpg by printing its head(). 
+# Take special note of the class column which describes vehicle class for the cars with a total of 7 types (compact, SUV, minivan etc.)
+
+
+
