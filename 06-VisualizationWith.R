@@ -49,4 +49,7 @@ viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
    # Change the x label to "Movie Rating" and the y label to "Number of Award Wins".
    # Change the legend label by providing a color argument with the string value of "Number of Genre".
 
+viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) +
+       geom_point(aes(color=nrOfGenre), alpha=0.5) +
+       labs(title="Movie Ratings Vs Award Wins", subtitle="From IMDB dataset", x="Movie Rating", y="Number of Award Wins", color="Number of Genre")
 
