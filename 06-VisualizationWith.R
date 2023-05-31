@@ -18,6 +18,7 @@ viz
 # We will use this scale on the subsequent layers, so create the aesthetic mappings at the canvas level.
 
 viz <- ggplot(data=movies, aes(x=imdbRating, y=nrOfWins)) 
+
 viz
 
 # Add a scatter plot of the data to the viz ggplot object by using the geom_point() layer.
