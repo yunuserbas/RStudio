@@ -4,6 +4,7 @@
 library(readr)
 library(dplyr)
 library(ggplot2)
+
 movies <- read_csv("imdb.csv")
 
 
@@ -12,6 +13,7 @@ movies <- read_csv("imdb.csv")
 # Click run and watch your code render an empty canvas. Even though no data is displayed, the data is bound to the viz ggplot object!
 
 viz <- ggplot(data = movies)
+
 viz
 
 # In the visualization we will be creating, we want to plot the Movie Ratings (imdbRating) on the x axis and the number of awards (nrOfWins) on the y axis to see if there is a correlation between a movie rating and the number of awards it wins. 
