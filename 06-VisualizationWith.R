@@ -64,5 +64,6 @@ viz
 # Inspect the built-in dataset mpg by printing its head(). 
 # Take special note of the class column which describes vehicle class for the cars with a total of 7 types (compact, SUV, minivan etc.)
 
+head(mpg)
 
 
