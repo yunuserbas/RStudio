@@ -76,3 +76,10 @@ bar <- ggplot(data=mpg)
 
 bar <- ggplot(data=mpg, aes(x=class))
 
+# Add a geom_bar() layer to bar. Be sure to type bar after you’ve declared the variable and added the layer so that the plot can render in your R notebook output.
+
+bar <- bar + geom_bar()
+bar
+
+
+
