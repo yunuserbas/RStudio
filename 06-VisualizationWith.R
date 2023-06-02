@@ -70,4 +70,9 @@ head(mpg)
 
 bar <- ggplot(data=mpg)
 
+# We want to understand the breakdown of the types of vehicles in the dataset, so provide the canvas,
+# or the ggplot() object with an aesthetic mapping aes() that makes the x axis represent the categorical values of the class column in the dataframe. 
+# ggplot2 will count each unique value in the class column and automagically designate that value to the y axis.
+
+bar <- ggplot(data=mpg, aes(x=class))
 
