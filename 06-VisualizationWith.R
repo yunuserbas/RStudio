@@ -81,5 +81,8 @@ bar <- ggplot(data=mpg, aes(x=class))
 bar <- bar + geom_bar()
 bar
 
+# Let’s add some color to the bar chart, by adding an aes() aesthetic mapping to the geom_bar() layer that fills the color of each bar based on the class value.
 
+bar <- bar + geom_bar(aes(fill=class))
+bar
 
