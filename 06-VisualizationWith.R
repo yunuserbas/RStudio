@@ -66,4 +66,4 @@ viz
 
 head(mpg)
 
-
+# Create a variable bar that is equal to a ggplot() object with the mpg built-in dataset associated as its data argument.
