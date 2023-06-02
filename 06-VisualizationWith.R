@@ -86,3 +86,11 @@ bar
 bar <- bar + geom_bar(aes(fill=class))
 bar
 
+# Use the labs() function to assign a new title that describes this plot is illustrating the Types of Vehicles and a subtitle describing the data as From fuel economy data for popular car models (1999-2008)
+
+bar <- bar + labs(title="Types of Vehicles", subtitle="From fuel economy data for popular car models (1999-2008)")
+bar
+
+
+
+
