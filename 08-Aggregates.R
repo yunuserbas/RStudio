@@ -11,4 +11,6 @@ orders <- read_csv("orders.csv")
 
 head(orders, 10)
 
+# Our finance department wants to know the price of the most expensive pair of shoes purchased. Save your answer to the variable most_expensive.
+
 
