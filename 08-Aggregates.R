@@ -24,3 +24,7 @@ most_expensive <- orders %>%
 most_expensive
 
 # Our fashion department wants to know how many different colors of shoes we are selling. Save your answer to the variable num_colors.
+
+num_colors <- orders %>%
+   summarize(num_colors = n_distinct(shoe_color))
+num_colors
