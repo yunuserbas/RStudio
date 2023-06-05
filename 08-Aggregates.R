@@ -16,3 +16,5 @@ head(orders, 10)
 most_expensive <- orders %>%
    summarize(most_expensive = max(price))
 most_expensive
+
+# Add the following as an additional argument to max() so that it removes all missing values before computing the maximum value.
