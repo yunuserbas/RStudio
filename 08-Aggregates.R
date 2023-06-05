@@ -13,4 +13,6 @@ head(orders, 10)
 
 # Our finance department wants to know the price of the most expensive pair of shoes purchased. Save your answer to the variable most_expensive.
 
-
+most_expensive <- orders %>%
+   summarize(most_expensive = max(price))
+most_expensive
