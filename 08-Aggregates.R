@@ -22,3 +22,5 @@ most_expensive
 most_expensive <- orders %>%
    summarize(most_expensive = max(price, na.rm = TRUE))
 most_expensive
+
+# Our fashion department wants to know how many different colors of shoes we are selling. Save your answer to the variable num_colors.
