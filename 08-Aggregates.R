@@ -18,3 +18,7 @@ most_expensive <- orders %>%
 most_expensive
 
 # Add the following as an additional argument to max() so that it removes all missing values before computing the maximum value.
+
+most_expensive <- orders %>%
+   summarize(most_expensive = max(price, na.rm = TRUE))
+most_expensive
