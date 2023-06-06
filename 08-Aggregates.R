@@ -28,3 +28,5 @@ most_expensive
 num_colors <- orders %>%
    summarize(num_colors = n_distinct(shoe_color))
 num_colors
+
+## CALCULATING AGGREATE FUNTIONS!!!
