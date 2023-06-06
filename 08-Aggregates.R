@@ -33,3 +33,4 @@ num_colors
 # In the previous exercise, our finance department wanted to know the most expensive shoe that we sold.
 # Now, they want to know the price of the most expensive shoe for each shoe_type (i.e., the price of the most expensive boot, the price of the most expensive ballet flat, etc.). 
 # Name the column that shows the most expensive shoe prices max_price.
+# Save your answer to the variable pricey_shoes, and view it.
