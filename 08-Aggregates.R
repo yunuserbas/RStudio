@@ -34,3 +34,9 @@ num_colors
 # Now, they want to know the price of the most expensive shoe for each shoe_type (i.e., the price of the most expensive boot, the price of the most expensive ballet flat, etc.). 
 # Name the column that shows the most expensive shoe prices max_price.
 # Save your answer to the variable pricey_shoes, and view it.
+
+pricey_shoes <- orders %>%
+  group_by(shoe_type) %>%
+  summarize(max_price = max(price, na.rm = TRUE))
+pricey_shoes
+
