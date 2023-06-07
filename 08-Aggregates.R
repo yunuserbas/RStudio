@@ -43,4 +43,8 @@ pricey_shoes
 # The inventory team wants to know how many of each shoe_type has been sold so they can forecast inventory for the future.
 # Save your answer to the variable shoes_sold, and view it.
 
+shoes_sold <- orders %>%
+  group_by(shoe_type) %>%
+  summarize(count = n())
+shoes_sold 
 
