@@ -40,3 +40,4 @@ pricey_shoes <- orders %>%
   summarize(max_price = max(price, na.rm = TRUE))
 pricey_shoes
 
+# The inventory team wants to know how many of each shoe_type has been sold so they can forecast inventory for the future.
