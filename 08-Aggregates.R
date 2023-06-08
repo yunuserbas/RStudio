@@ -61,3 +61,8 @@ shoe_counts
 # Save your result to the variable shoe_prices, and view it.
 # Don’t forget to include na.rm = TRUE as an argument in the summary function that you call!
 
+shoe_prices <- orders %>%
+  group_by(shoe_type, shoe_material) %>%
+  summarize(mean_price = mean(price, na.rm = TRUE))
+shoe_prices
+
