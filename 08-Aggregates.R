@@ -59,3 +59,5 @@ shoe_counts
 
 # Find the mean price of each shoe_type/shoe_material combination purchased using group_by, summarize() and mean(). Assign the name mean_price to the calculated aggregate.
 # Save your result to the variable shoe_prices, and view it.
+# Don’t forget to include na.rm = TRUE as an argument in the summary function that you call!
+
