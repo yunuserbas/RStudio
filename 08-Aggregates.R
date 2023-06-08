@@ -48,3 +48,7 @@ shoes_sold <- orders %>%
   summarize(count = n())
 shoes_sold 
 
+# At ShoeFly.com, our Purchasing team thinks that certain shoe_type/shoe_color combinations are particularly popular this year (for example, blue ballet flats are all the rage in Paris).
+
+
+
