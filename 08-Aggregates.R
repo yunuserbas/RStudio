@@ -90,3 +90,13 @@ diff_from_mean
 
 page_visits <- read_csv("page_visits.csv")
 head(page_visits)
+
+# Find the average price of an order in the orders data frame using summarize() and the mean() summary function. 
+# Save the resulting data frame to a variable named average_price and view it.
+# Don’t forget to include na.rm = TRUE as an argument in the call to mean()!
+
+average_price <- orders %>%
+    summarize(mean_val = mean(price, na.rm = TRUE))
+average_price
+
+
