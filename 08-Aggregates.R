@@ -66,3 +66,5 @@ shoe_prices <- orders %>%
   summarize(mean_price = mean(price, na.rm = TRUE))
 shoe_prices
 
+# Your boss at ShoeFly.com wants to gain a better insight into the orders of the most popular shoe_types.
+# Group orders by shoe_type and filter to only include orders with a shoe_type that has been ordered more than 16 times. Save the result to most_pop_orders, and view it.
