@@ -111,3 +111,11 @@ click_source
 # Our Marketing department thinks that the traffic to our site has been changing over the past few months. 
 # Use group_by to calculate the number of visits to our site from each utm_source for each month. 
 # Save your answer to the variable click_source_by_month, and view it.
+
+click_source_by_month <- page_visits %>%
+   group_by(utm_source, month) %>%
+   summarize(count = n())
+click_source_by_month
+
+
+
