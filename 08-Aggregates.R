@@ -103,5 +103,9 @@ average_price
 # For instance, if utm_source = Facebook, then the user came to ShoeFly by clicking on an ad on Facebook.com.
 # Use a group_by statement to calculate how many visits came from each of the different sources. Save your answer to the variable click_source, and view it.
 
+click_source <- page_visits %>%
+   group_by(utm_source) %>%
+   summarize(count = n())
+click_source 
 
 
