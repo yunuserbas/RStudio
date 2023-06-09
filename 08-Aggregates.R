@@ -80,4 +80,10 @@ most_pop_orders
 # Save the result to diff_from_mean, and view it.
 # Don’t forget to include na.rm = TRUE as an argument in the summary function you call!
 
+diff_from_mean <- orders %>%
+  group_by(shoe_type) %>%
+  mutate(diff_from_shoe_type_mean = price - mean(price, na.rm = TRUE))
+diff_from_mean
+
+
 
