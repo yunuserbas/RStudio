@@ -85,5 +85,8 @@ diff_from_mean <- orders %>%
   mutate(diff_from_shoe_type_mean = price - mean(price, na.rm = TRUE))
 diff_from_mean
 
+# Let’s examine some more data from ShoeFly.com. This time, in addition to the orders data, we’ll be looking at data about user visits to the website, stored in the page_visits data frame. 
+# Inspect the columns of the data frames using the rendered notebook.
 
-
+page_visits <- read_csv("page_visits.csv")
+head(page_visits)
