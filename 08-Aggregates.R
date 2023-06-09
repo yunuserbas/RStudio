@@ -99,4 +99,9 @@ average_price <- orders %>%
     summarize(mean_val = mean(price, na.rm = TRUE))
 average_price
 
+# In the page_visits data frame, the column utm_source contains information about how users got to ShoeFly’s homepage. 
+# For instance, if utm_source = Facebook, then the user came to ShoeFly by clicking on an ad on Facebook.com.
+# Use a group_by statement to calculate how many visits came from each of the different sources. Save your answer to the variable click_source, and view it.
+
+
 
