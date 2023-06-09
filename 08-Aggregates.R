@@ -78,4 +78,6 @@ most_pop_orders
 # You want to be able to tell how expensive each order is compared to the average price of orders with the same shoe_type.
 # Group orders by shoe_type and create a new column named diff_from_shoe_type_mean that stores the difference in price between an orders price and the average price of orders with the same shoe_type.
 # Save the result to diff_from_mean, and view it.
-# 
+# Don’t forget to include na.rm = TRUE as an argument in the summary function you call!
+
+
