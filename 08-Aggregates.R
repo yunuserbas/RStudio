@@ -68,3 +68,5 @@ shoe_prices
 
 # Your boss at ShoeFly.com wants to gain a better insight into the orders of the most popular shoe_types.
 # Group orders by shoe_type and filter to only include orders with a shoe_type that has been ordered more than 16 times. Save the result to most_pop_orders, and view it.
+# You can include any of the summary functions as part of an argument to filter(), including n()!
+
