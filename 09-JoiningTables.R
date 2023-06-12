@@ -10,3 +10,9 @@ products <- read_csv("products.csv")
 head(orders)
 head(products)
 head(customers)
+
+# Examine the orders and products tables.
+# What is the description of the product that was ordered in Order 3?
+# Give your answer as a string assigned to the variable order_3_description.
+
+order_3_description <- "thing-a-ma-jig"
