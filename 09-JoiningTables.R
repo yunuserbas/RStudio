@@ -16,3 +16,11 @@ head(customers)
 # Give your answer as a string assigned to the variable order_3_description.
 
 order_3_description <- "thing-a-ma-jig"
+
+# Examine the orders and customers tables.
+# What is the phone_number of the customer in Order 5?
+# Give your answer as a string assigned to the variable order_5_phone_number.
+
+order_5_phone_number <- "112-358-1321"
+
+
