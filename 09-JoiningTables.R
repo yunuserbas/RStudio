@@ -36,4 +36,9 @@ targets <- read_csv("targets.csv")
 head(sales)
 head(targets)
 
+# define sales_vs_targets here:
+sales_vs_targets <- sales %>%
+    inner_join(targets)
+sales_vs_targets
+
 
