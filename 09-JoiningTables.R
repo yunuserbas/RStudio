@@ -41,4 +41,11 @@ sales_vs_targets <- sales %>%
     inner_join(targets)
 sales_vs_targets
 
+# Cool T-Shirts Inc. wants to know the months when they crushed their targets.
+# Filter sales_vs_targets to only include the rows where revenue is greater than target. Save these rows to the variable crushing_it.
+crushing_it <- sales_vs_targets %>%
+     filter(revenue > target)
+crushing_it
+
+
 
