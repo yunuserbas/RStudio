@@ -31,3 +31,9 @@ order_5_phone_number <- "112-358-1321"
 # Create a new data frame sales_vs_targets which contains the inner_join() of sales and targets.
 sales <- read_csv("sales.csv")
 targets <- read_csv("targets.csv")
+
+
+head(sales)
+head(targets)
+
+
