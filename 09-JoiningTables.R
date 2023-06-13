@@ -23,4 +23,9 @@ order_3_description <- "thing-a-ma-jig"
 
 order_5_phone_number <- "112-358-1321"
 
+# You are an analyst at Cool T-Shirts Inc. You are going to help them analyze some of their sales data.
+# There are two data frames defined in the file notebook.Rmd:
+#1 sales contains the monthly revenue for Cool T-Shirts Inc. It has two columns: month and revenue.
+#2 targets contains the goals for monthly revenue for each month. It has two columns: month and target.
 
+# Create a new data frame sales_vs_targets which contains the inner_join() of sales and targets.
