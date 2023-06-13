@@ -54,5 +54,12 @@ crushing_it
 men_women <- read_csv("men_women_sales.csv")
 head(men_women)
 
+# Join all three data frames (sales, targets, and men_women) into one big data frame called all_data. View all_data.
+
+ll_data <- sales %>%
+    inner_join(targets) %>%
+    inner_join(men_women)
+all_data
+
 
 
