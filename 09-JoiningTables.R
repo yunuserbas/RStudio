@@ -61,5 +61,11 @@ ll_data <- sales %>%
     inner_join(men_women)
 all_data
 
+# Filter the rows of all_data to only include rows where:
+# revenue is greater than target and women is greater than men.
+# Save your answer to the variable results, and view it.
 
-
+results <- all_data %>%
+    filter(revenue > target) %>%
+    filter(women > men)
+results
