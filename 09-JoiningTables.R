@@ -29,3 +29,5 @@ order_5_phone_number <- "112-358-1321"
 #2 targets contains the goals for monthly revenue for each month. It has two columns: month and target.
 
 # Create a new data frame sales_vs_targets which contains the inner_join() of sales and targets.
+sales <- read_csv("sales.csv")
+targets <- read_csv("targets.csv")
