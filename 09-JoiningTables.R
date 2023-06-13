@@ -43,9 +43,16 @@ sales_vs_targets
 
 # Cool T-Shirts Inc. wants to know the months when they crushed their targets.
 # Filter sales_vs_targets to only include the rows where revenue is greater than target. Save these rows to the variable crushing_it.
+
 crushing_it <- sales_vs_targets %>%
      filter(revenue > target)
 crushing_it
+
+# We have some more data from Cool T-Shirts Inc. The number of men’s and women’s t-shirts sold per month is in a file called men_women_sales.csv. 
+# Load this data into a data frame called men_women, and inspect it using head().
+
+men_women <- read_csv("men_women_sales.csv")
+head(men_women)
 
 
 
