@@ -69,3 +69,11 @@ results <- all_data %>%
     filter(revenue > target) %>%
     filter(women > men)
 results
+
+# The id column of products stores the same information as the product_id column of orders. 
+# Rename the id column of products to product_id. Save the updated data frame to products.
+
+products <- products %>%
+   rename(product_id = id)
+inner_join(orders, products)
+products
