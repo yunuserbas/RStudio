@@ -77,3 +77,9 @@ products <- products %>%
    rename(product_id = id)
 inner_join(orders, products)
 products
+
+# Join orders and products. Save the result to the variable orders_products, and view it.
+
+orders_products <- orders %>%
+    inner_join(products)
+orders_products
