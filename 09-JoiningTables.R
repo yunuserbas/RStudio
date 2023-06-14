@@ -92,4 +92,14 @@ orders_products <- orders %>%
                by = c('product_id' = 'id'))
 orders_products
 
+# Now join the products and orders data frames using an inner_join(), with products as the first argument and orders as the second argument. 
+# Also include the by argument to indicate which columns to join on, as well as a suffix argument c('_product','_order'). 
+# Save your results to the variable products_orders, and view it.
+
+products_orders <- products %>%
+    inner_join(orders,
+               by = c('id' = 'product_id'),
+               suffix = c('_product','_order'))
+products_orders
+
 
