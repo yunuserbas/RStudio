@@ -83,3 +83,8 @@ products
 orders_products <- orders %>%
     inner_join(products)
 orders_products
+
+# Join the orders and products data frames using an inner_join(), with orders as the first argument and products as the second argument. 
+# Also include the by argument to indicate which columns to join on. Save your results to the variable orders_products, and view it.
+
+
