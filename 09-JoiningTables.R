@@ -112,3 +112,8 @@ store_a_b_full
 
 # Store A wants to find out what products they carry that Store B does not carry. Using a left join, combine store_a to store_b and save the results to left_a_b.
 # The items with NA in left_a_b are carried by Store A, but not by Store B.
+
+left_a_b <- store_a %>%
+    left_join(store_b)
+left_a_b
+
