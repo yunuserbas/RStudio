@@ -133,3 +133,16 @@ menu <- bakery %>%
     bind_rows(ice_cream)
 menu
 
+# REVIEW 
+
+# Cool T-Shirts Inc. just created a website for ordering their products. They want you to analyze two datasets for them:
+# visits contains information on all visits to their landing page
+# checkouts contains all users who began to checkout on their website
+# Use head() to inspect each data frame.
+
+visits <- read_csv('visits.csv')
+checkouts <- read_csv('checkouts.csv')
+
+
+head(visits)
+head(checkouts)
