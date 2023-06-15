@@ -125,4 +125,11 @@ left_b_a <- store_b %>%
     left_join(store_a)
 left_b_a
 
+# An ice cream parlor and a bakery have decided to merge.
+# The bakery’s menu is stored in the data frame bakery, and the ice cream parlor’s menu is stored in the data frame ice_cream.
+# Create their new menu by concatenating the two data frames into a data frame called menu.
+
+menu <- bakery %>%
+    bind_rows(ice_cream)
+menu
 
