@@ -146,3 +146,26 @@ checkouts <- read_csv('checkouts.csv')
 
 head(visits)
 head(checkouts)
+
+
+# We want to know the amount of time from a user’s initial visit to the website to when they start to check out.
+# Use inner_join to combine visits and checkouts and save it to the variable v_to_c. View v_to_c.
+
+v_to_c <- visits %>%
+    inner_join(checkouts)
+v_to_c
+
+# In order to calculate the time between visiting and checking out, define a column of v_to_c called time by pasting the following code into
+
+v_to_c <- v_to_c %>%
+  mutate(time = checkout_time - visit_time)
+v_to_c
+
+# To get the average time to checkout, paste the following code into 
+
+avg_time_to_check <- v_to_c %>% 
+  summarize(mean_time = mean(time))
+avg_time_to_check
+
+
+
