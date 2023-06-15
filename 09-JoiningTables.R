@@ -117,3 +117,12 @@ left_a_b <- store_a %>%
     left_join(store_b)
 left_a_b
 
+# Now, Store B wants to find out what products they carry that Store A does not carry. 
+# Use a left join, to combine the two data frames but in the reverse order (i.e., store_b followed by store_a) and save the results to the variable left_b_a.
+# Which items are not carried by Store A, but are carried by Store B?
+
+left_b_a <- store_b %>%
+    left_join(store_a)
+left_b_a
+
+
