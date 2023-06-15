@@ -102,4 +102,11 @@ products_orders <- products %>%
                suffix = c('_product','_order'))
 products_orders
 
+# There are two hardware stores in town: Store A and Store B. 
+# Store A’s inventory is in data frame store_a and Store B’s inventory is in data frame store_b. They have decided to merge into one big Super Store!
+# Combine the inventories of Store A and Store B using a full join. Save the results to the variable store_a_b_full.
+
+store_a_b_full <- store_a %>%
+    full_join(store_b)
+store_a_b_full
 
