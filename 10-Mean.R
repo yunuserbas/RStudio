@@ -7,3 +7,10 @@
 
 total <- 29 + 49 + 42 + 43
 print(total)
+
+
+# Divide total by the number of values in the dataset, and set mean_value to the answer.
+# Print mean_value. Keep that number in your head as you progress through the lesson.
+
+mean_value <- total / 4
+print(mean_value)
