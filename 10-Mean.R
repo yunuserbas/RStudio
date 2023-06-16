@@ -5,3 +5,5 @@
 
 # Add the values together, and set total equal to the answer. Print total.
 
+total <- 29 + 49 + 42 + 43
+print(total)
