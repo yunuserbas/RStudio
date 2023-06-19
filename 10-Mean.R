@@ -22,4 +22,12 @@ library(dplyr)
 # Read author data
 greatest_books = read_csv("top-hundred-books.csv")
 
+# Set author ages to a vector
+author_ages <- greatest_books$Ages
+
+# Use R to calculate mean
+average_age <- mean(author_ages)
+print(average_age)
+
+
 
