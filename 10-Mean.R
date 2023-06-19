@@ -14,3 +14,12 @@ print(total)
 
 mean_value <- total / 4
 print(mean_value)
+
+# import libraries
+library(readr)
+library(dplyr)
+
+# Read author data
+greatest_books = read_csv("top-hundred-books.csv")
+
+
