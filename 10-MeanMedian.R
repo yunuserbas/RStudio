@@ -34,4 +34,8 @@ print(average_age)
 # Use R to calculate the median age of the top 100 authors
 median_age <- median(author_ages)
 
+# MODE
+mode_age <- Mode(author_ages)
+
+
 
