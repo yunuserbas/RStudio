@@ -23,5 +23,14 @@ difference_sum <- difference_one + difference_two + difference_three + differenc
 
 average_difference <- difference_sum / 5
 
+# Square each of the values stored in the variables difference_one through difference_five. 
+# In R, to square a number, use the ^ operator. The code below gives you an example of squaring the variable a.
+
+difference_one <- (88 - mean) ^ 2
+difference_two <- (82 - mean) ^ 2
+difference_three <- (85 - mean) ^ 2
+difference_four <- (84 - mean) ^ 2
+difference_five <- (90 - mean) ^ 2
+
 
 
