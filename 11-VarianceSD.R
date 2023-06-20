@@ -15,3 +15,5 @@ difference_three <- 85 - mean
 difference_four <- 84 - mean
 difference_five <- 90 - mean
 
+# Sum the five variables difference_one through difference_five and store the result in the variable difference_sum.
+
