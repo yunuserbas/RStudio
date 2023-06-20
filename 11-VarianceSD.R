@@ -17,3 +17,7 @@ difference_five <- 90 - mean
 
 # Sum the five variables difference_one through difference_five and store the result in the variable difference_sum.
 
+difference_sum <- difference_one + difference_two + difference_three + difference_four + difference_five
+
+
+
