@@ -19,5 +19,9 @@ difference_five <- 90 - mean
 
 difference_sum <- difference_one + difference_two + difference_three + difference_four + difference_five
 
+# Divide difference_sum by 5 and store the result in the variable named average_difference.
+
+
+
 
 
