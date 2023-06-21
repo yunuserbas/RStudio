@@ -61,3 +61,11 @@ okcupid_variance <- variance(okcupid_data)
 nba_standard_deviation <- nba_variance ^ 0.5
 okcupid_standard_deviation <- okcupid_variance ^ 0.5
 
+# We’ve removed the code that calculated the variance of each dataset. By using sd() we don’t need to take that middle step anymore.
+# Call sd() using nba_data as a parameter, and store the result in nba_standard_deviation.
+# Make a similar function call using okcupid_data and store the result in okcupid_standard_deviation.
+
+nba_standard_deviation <- sd(nba_data)
+okcupid_standard_deviation <- sd(okcupid_data)
+
+
