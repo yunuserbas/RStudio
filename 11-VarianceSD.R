@@ -45,4 +45,19 @@ teacher_two_grades <- c(65.82, 70.77, 71.46, 73.63, 74.62, 76.53, 76.86, 77.06, 
 teacher_one_variance <- variance(teacher_one_grades)
 teacher_two_variance <- variance(teacher_two_grades)
 
+# STANDARD DEVIATION
+# The variances are stored in variables named nba_variance and okcupid_variance.
+# Calculate the standard deviation by taking the square root of nba_variance and store it in the variable nba_standard_deviation. 
+# Do the same for the variable okcupid_standard_deviation.
+
+# Importing data and calculating variance
+load("lesson_data.Rda")
+variance <- function(x) mean((x-mean(x))^2)
+
+nba_variance <- variance(nba_data)
+okcupid_variance <- variance(okcupid_data)
+
+# Change these variables to be the standard deviation of each dataset.
+nba_standard_deviation <- nba_variance ^ 0.5
+okcupid_standard_deviation <- okcupid_variance ^ 0.5
 
