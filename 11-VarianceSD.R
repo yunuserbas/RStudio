@@ -73,6 +73,15 @@ okcupid_standard_deviation <- sd(okcupid_data)
 # Set nba_difference equal to 80 minus nba_mean.
 # Find the difference between Lebron’s height and the OkCupid mean and store it in okcupid_difference. The OkCupid dataset’s mean is stored in okcupid_mean.
 
-# Step 1: Calcualte the difference between the player's height and the means
+# Step 1: Calcualte the difference between the player's height and the means.
+
 nba_difference <- 80 - nba_mean
 okcupid_difference <- 80 - okcupid_mean
+
+# Step 2: Use the difference between the point and the mean to find how many standard deviations the player is away from the mean.
+
+num_nba_deviations <- nba_difference / nba_standard_deviation
+num_okcupid_deviations <- okcupid_difference / okcupid_standard_deviation
+
+
+
