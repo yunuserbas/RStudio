@@ -1,6 +1,14 @@
 
+# We’ve included two small unsorted datasets named dataset_one and dataset_two.
+# We’ve also included, as a comment, the sorted version of the first dataset.
+# By looking at sorted version of dataset_one, find the second quartile of the dataset and store it in a variable named dataset_one_q2.
+
 dataset_one <- c(50, 10, 4, -3, 4, -20, 2)
 
 dataset_two <- c(24, 20, 1, 45, -15, 40)
 
+# define the second quartile of both datasets here:
 
+dataset_one_q2 <- 4
+
+dataset_two_q2 <- 22
