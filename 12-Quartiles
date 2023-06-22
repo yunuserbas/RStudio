@@ -13,3 +13,12 @@ dataset_one_q2 <- 4
 
 dataset_two_q2 <- 22
 
+# define the first and third quartile of both datasets here:
+
+dataset_one_q1 <- -3
+
+dataset_one_q3 <- 10
+
+dataset_two_q1 <- 1
+
+dataset_two_q3 <- 40
