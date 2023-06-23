@@ -31,3 +31,8 @@ dataset_one_q1 <- -0.5
 
 dataset_one_q3 <- 7
 
+# Create two variables named dataset_two_q1 and dataset_two_q3 and set them equal to the first and third quartile of dataset two.
+# Use the second method of calculating quartiles. Since Q2 fell between two data points, this method is no different than the first method!
+
+
+
