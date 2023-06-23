@@ -22,3 +22,7 @@ dataset_one_q3 <- 10
 dataset_two_q1 <- 1
 
 dataset_two_q3 <- 40
+
+# Create a variable named dataset_one_q1 and set it equal to the first quartile of dataset one. This time, use the second method of finding quartiles.
+
+dataset_one_q1 <- -0.5
