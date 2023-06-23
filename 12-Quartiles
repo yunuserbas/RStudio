@@ -44,3 +44,10 @@ dataset_two_q3 <- 40
 load("songs.Rda")
 songs_q1 <- quantile(songs, 0.25)
 
+# Find the second and third quartile of the dataset and store the values in two variables named songs_q2 and songs_q3.
+
+songs_q2 <- quantile(songs, 0.5)
+
+songs_q3 <- quantile(songs, 0.75)
+
+
