@@ -38,6 +38,9 @@ dataset_two_q1 <- 1
 
 dataset_two_q3 <- 40
 
+# We’ve brought back our music dataset. The lengths of 9,975 songs (in seconds) are stored in a variable named songs. 
+# Use the quantile() function to find the first quartile. Store the result in a variable named songs_q1.
 
-
+load("songs.Rda")
+songs_q1 <- quantile(songs, 0.25)
 
