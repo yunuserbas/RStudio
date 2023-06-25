@@ -50,4 +50,19 @@ songs_q2 <- quantile(songs, 0.5)
 
 songs_q3 <- quantile(songs, 0.75)
 
+# The dataset containing information about the lengths of songs is stored in a variable named songs.
+# Create a variable named twenty_third_percentile that contains the value that splits the first 23% of the data from the rest of the data.
 
+twenty_third_percentile <- quantile(songs, 0.23)
+
+# Create a variable named quartiles that contains the quartiles of the songs dataset.
+# The quartiles of a dataset split the data into four groups of equal size. Each group should have 25% of the data, so you’ll want to use c(0.25, 0.5, 0.75) as the second parameter to the quantile() function.
+
+quartiles <- quantile(songs, c(0.25, 0.5, 0.75))
+
+# Create a variable named deciles. deciles should store the values that split the dataset into ten groups of equal size. Each group should have 10% of the data.
+# The first value should be at 10% of the data. The next value should be at 20% of the data. The final value should be at 90% of the data.
+
+deciles <- quantile(songs, c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9))
+
+# 
