@@ -98,4 +98,7 @@ q3 <- quantile(songs, 0.75)
 
 interquartile_range <- q3 - q1
 
+# Let’s calculate the IQR again, but this time, use the stats function.
+# Create a variable named interquartile_range and set it equal to the result of calling IQR() using songs as an argument.
 
+interquartile_range <- IQR(songs)
