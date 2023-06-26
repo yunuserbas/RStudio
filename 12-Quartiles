@@ -84,3 +84,18 @@ maximum <- max(songs)
 minimum <- min(songs)
 
 song_range <- maximum - minimum
+
+# We’ve calculated the first quartile of songs and stored it in the variable q1.
+# Calculate the third quartile and store it in a variable named q3.
+# To calculate the third quartile, call the same function, but change the second argument to 0.75.
+
+q1 <- quantile(songs,0.25)
+
+q3 <- quantile(songs, 0.75)
+
+# Now that we have both the first quartile and the third quartile, let’s calculate the IQR.
+# Create a variable named interquartile_range and set it equal to the difference between q3 and q1.
+
+interquartile_range <- q3 - q1
+
+
