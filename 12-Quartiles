@@ -69,3 +69,8 @@ deciles <- quantile(songs, c(0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9))
 # Store that value in a variable named percentile.
 
 percentile <- quantile(songs, 0.32)
+
+# Look at the printout. If you had a song that was exactly three minutes long, is that song above or below the 32nd percentile?
+# Create a variable named answer and set it equal to either "above" or "below". Don’t forget to include the quotes!
+
+answer <- "below" 
