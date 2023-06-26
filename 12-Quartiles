@@ -74,3 +74,13 @@ percentile <- quantile(songs, 0.32)
 # Create a variable named answer and set it equal to either "above" or "below". Don’t forget to include the quotes!
 
 answer <- "below" 
+
+# We’ve imported a dataset of song lengths (measured in seconds) and plotted a histogram.
+# It looks like there are some outliers — this might be a good opportunity to use the IQR.
+# Before we do that, let’s calculate the range. We’ve found the maximum and minimum values of the dataset and stored them in variables named maximum and minimum.
+# Create a variable named song_range and set it equal to the difference between the maximum and the minimum.
+
+maximum <- max(songs)
+minimum <- min(songs)
+
+song_range <- maximum - minimum
