@@ -122,9 +122,34 @@ week_2_sd <- sd(week_2)
 
 results <- t.test(week_1, week_2)
 
+# We have created samples store_a, store_b, and store_c, representing the sales at VeryAnts at locations A, B, and C, respectively. 
+# We want to see if there’s a significant difference in sales between the three locations.
+# Explore datasets store_a, store_b, and store_c by finding and viewing the means and standard deviations of each one. 
+# Store the means in variables called store_a_mean, store_b_mean, and store_c_mean. Store the standard deviations in variables called store_a_sd, store_b_sd, and store_c_sd.
+
+load("store_a.Rda")
+load("store_b.Rda")
+load("store_c.Rda")
+
+store_a_mean <- mean(store_a)
+store_b_mean <- mean(store_b)
+store_c_mean <- mean(store_c)
+
+store_a_sd <- sd(store_a)
+store_b_sd <- sd(store_b)
+store_c_sd <- sd(store_c)
 
 
+# Perform a Two Sample T-test between each pair of location data.
+# Store the results of the tests in variables called a_b_results, a_c_results, and b_c_results. View the results for each test.
 
+a_b_results <- t.test(store_a, store_b)
+a_c_results <- t.test(store_a, store_c)
+b_c_results <- t.test(store_b, store_c)
+
+# Store the probability of error for running three T-Tests in a variable called error_prob. View error_prob.
+
+error_prob <- (1-(0.95**3))
 
 
 
