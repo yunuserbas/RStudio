@@ -30,3 +30,12 @@ sample_4_mean
 sample_5_mean <- mean(sample_5)
 sample_5_mean
 
+# A researcher at a pharmaceutical company is working on the development of a new medication to lower blood pressure, DeePressurize. 
+# They run an experiment with a control group of 100 patients that receive a placebo (a sugar pill), and an experimental group of 100 patients that receive DeePressurize. Blood pressure measurements are taken after a 3 month period on both groups of patients.
+# The researcher wants to run a hypothesis test to compare the resulting datasets. Two hypotheses, hypo_a and hypo_b, are given in notebook.Rmd. 
+# Which could be a null hypothesis for comparing the two sets of data? Update the value of null_hypo_1 to the string "hypo_a" or "hypo_b" based on your answer.
+
+hypo_a <- "DeePressurize lowers blood pressure in patients."
+hypo_b <- "DeePressurize has no effect on blood pressure in patients."
+null_hypo_1 <- "hypo_b"
+
