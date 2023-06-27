@@ -58,5 +58,73 @@ mean_retriever_l <- mean(retriever_lengths)
 mean_doodle_l <- mean(doodle_lengths)
 
 
+# Calculate the difference between mean_retriever_l and mean_doodle_l and save the result to mean_difference. View mean_difference.
 
-The lengths of the dogs are given in retriever_lengths and doodle_lengths. Calculate the mean of each breed and save the results to mean_retriever_l and mean_doodle_l. View mean_retriever_l and mean_doodle_l.
+mean_difference <- mean_retriever_l - mean_doodle_l
+mean_difference
+
+# You want to run a hypothesis test to see if there is a significant difference in the lengths of Golden Retrievers and Goldendoodles. Which of the two statements could be a formulation of the null hypothesis?
+# Update the value of null_hypo with "st_1" or "st_2" depending on your answer.
+
+
+st_1 <- "The average length of Golden Retrievers is 2.5 inches longer than the average length of Goldendoodles."
+st_2 <- "The average length of Golden Retrievers is the same as the average length of Goldendoodles."
+
+null_hypo <- "st_2"
+
+
+# P_VALUES
+# You are big fan of apples, so you gather 10 green and 10 red apples to compare their weights. The green apples average 150 grams in weight, and the red apples average 160 grams in weight.
+# You run a hypothesis test to see if there is a significant difference in the weight of green and red apples. The test returns a p-value of 0.2. Which statement (st_1, st_2, st_3, or st_4) indicates how this p-value can be interpreted?
+# Update the value of interpretation with the string "st_1", "st_2", "st_3", or "st_4" depending on your answer.
+
+st_1 <- "There is a 20% chance that the difference in average weight of green and red apples is due to random sampling."
+st_2 <- "There is a 20% chance that green and red apples have the same average weight."
+st_3 <- "There is a 20% chance red apples weigh more than green apples."
+st_4 <- "There is a 20% chance green apples weigh more than green apples."
+
+# update the value of interpretation here:
+interpretation <- "st_1"
+
+# T_TEST
+
+# load and view data
+load("ages.Rda")
+ages
+
+# calculate ages_mean here:
+ages_mean <- mean(ages)
+
+# Use the t.test() function with ages to see what p-value the experiment returns for this distribution, where we expect the mean to be 30.
+# Store the results of the test in a variable called results.
+# Does the p-value you got with the One Sample T-Test make sense, knowing the mean of ages?
+
+results <- t.test(ages, mu = 30)
+
+# We’ve created two distributions representing the time spent per visitor to BuyPie.com last week, week_1, and the time spent per visitor to BuyPie.com this week, week_2.
+# Find the means of these two distributions. Store them in week_1_mean and week_2_mean. View both means.
+
+load("week_1.Rda")
+week_1
+load("week_2.Rda")
+week_2
+
+week_1_mean <- mean(week_1)
+week_2_mean <- mean(week_2)
+
+# Find the standard deviations of these two distributions. Store them in week_1_sd and week_2_sd. View both standard deviations.
+
+week_1_sd <- sd(week_1)
+week_2_sd <- sd(week_2)
+
+# Run a Two Sample T-Test using the t.test() function.
+# Save the results to a variable called results and view it. Does the p-value make sense, knowing what you know about these datasets?
+
+results <- t.test(week_1, week_2)
+
+
+
+
+
+
+
