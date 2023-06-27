@@ -47,6 +47,16 @@ hypo_c <- "The new profile layout has no effect on number of matches with other 
 hypo_d <- "The new profile layout results in more matches with other users than the original layout."
 null_hypo_2 <- "hypo_c"
 
+# Your friend is a dog walker that specializes in working with Golden Retrievers and Goldendoodles. 
+# They are interested in knowing if there is a signficant difference in the lengths of the two breeds. 
+# After a few weeks of data collection, they give you a spreadsheet of 10 Golden Retrievers’ lengths and 10 Goldendoodles’ lengths.
+
+load("retriever_lengths.Rda")
+load("doodle_lengths.Rda")
+
+mean_retriever_l <- mean(retriever_lengths)
+mean_doodle_l <- mean(doodle_lengths)
 
 
-The product manager wants to run a hypothesis test to compare the resulting datasets. Two hypotheses, hypo_c and hypo_d, are given in notebook.Rmd. Which could be a null hypothesis for comparing the two sets of data? Update the value of null_hypo_2 to the string "hypo_c" or "hypo_d" based on your answer.
+
+The lengths of the dogs are given in retriever_lengths and doodle_lengths. Calculate the mean of each breed and save the results to mean_retriever_l and mean_doodle_l. View mean_retriever_l and mean_doodle_l.
