@@ -39,3 +39,14 @@ hypo_a <- "DeePressurize lowers blood pressure in patients."
 hypo_b <- "DeePressurize has no effect on blood pressure in patients."
 null_hypo_1 <- "hypo_b"
 
+# A product manager at a dating app company is developing a new user profile page with a different picture layout. 
+# They want to see if the new layout results in more matches between users than the current layout. 
+# 50% of profiles are updated to the new layout, and over a 1 month period the number of matches for users with the new layout and the original layout are recorded.
+
+hypo_c <- "The new profile layout has no effect on number of matches with other users."
+hypo_d <- "The new profile layout results in more matches with other users than the original layout."
+null_hypo_2 <- "hypo_c"
+
+
+
+The product manager wants to run a hypothesis test to compare the resulting datasets. Two hypotheses, hypo_c and hypo_d, are given in notebook.Rmd. Which could be a null hypothesis for comparing the two sets of data? Update the value of null_hypo_2 to the string "hypo_c" or "hypo_d" based on your answer.
