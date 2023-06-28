@@ -151,5 +151,27 @@ b_c_results <- t.test(store_b, store_c)
 
 error_prob <- (1-(0.95**3))
 
+# Use the base R hist() function to display the histograms for dist_one, dist_two, dist_three, and dist_four
+
+# load data
+load("dist_one.Rda")
+load("dist_two.Rda")
+load("dist_three.Rda")
+load("dist_four.Rda")
+
+# plot histograms and define not_normal here:
+hist(dist_one)
+hist(dist_two)
+hist(dist_three)
+hist(dist_four)
+
+not_normal <- 4
+
+# Calculate the ratio of standard deviations between dist_two and dist_three, and store the value in a variable called ratio. 
+# View ratio. Is this “close enough” to perform a numerical hypothesis test between the two datasets?
+
+ratio <- sd(dist_two)/sd(dist_three)
+ratio
+
 
 
